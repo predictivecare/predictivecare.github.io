@@ -5,7 +5,8 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: #a6fce5;
+ /* background: #a6fce5;*/
+ background:white;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
   width: 100vw;
   height: 12vh;
   left: 0vw;
-  color: white;
+  color: #a6fce5;;
  text-align: center;
  position: relative;
 }
@@ -44,7 +45,8 @@ small {
 
 
 html, body {
-  background: #a6fce5;
+  /*background: #a6fce5;*/
+   background:white;
 }
 
 #console {
@@ -112,3 +114,4 @@ html, body {
   position: absolute;
    left: 7vw;
 }
+
