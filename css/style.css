@@ -108,3 +108,7 @@ html, body {
   left: 90vw;
   top: 60vh;
 }
+#logo{
+  position: absolute;
+   left: 7vw;
+}
