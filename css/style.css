@@ -1,17 +1,32 @@
- html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+ html, body, div, span, object, iframe, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
+  background: #a6fce5;
 }
 
+h1 {
+   font-family: 'Hind', sans-serif;
+  font-size: 8vh;
+  width: 100vw;
+  height: 12vh;
+  left: -20vw;
+  color: white;
+ text-align: center;
+ position: relative;
+}
 
 p {
+  font-family: 'Hind', sans-serif;
+color: #03081c;
+
   font-size: 13px;
   width: 80vw;
+  
+
 }
 body {
   -webkit-text-size-adjust: none;
@@ -19,19 +34,6 @@ body {
   min-height: 80vh;
 }
 
-h1 {
-  font-size: 33px;
-  margin: 50px 0 15px;
-  text-align: center;
-  color: #212121;
-}
-
-h2 {
-  font-size: 14px;
-  font-weight: bold;
-  color: #3c3c3c;
-  margin: 20px 10px 10px;
-}
 
 small {
   margin: 0 10px 30px;
@@ -39,14 +41,10 @@ small {
   font-size: 12px;
 }
 
-a {
-  margin: 0 0 0 10px;
-  font-size: 12px;
-  color: #3c3c3c;
-}
+
 
 html, body {
-  background: #f3f3f3;
+  background: #a6fce5;
 }
 
 #console {
@@ -57,6 +55,7 @@ html, body {
   margin-top: 20px;
   max-height: 150px;
   overflow: auto;
+
 }
 
 #mySwipe div b {
@@ -78,15 +77,34 @@ html, body {
   overflow: hidden;
   visibility: hidden;
   position: relative;
+   border-radius: 5px;
+   background-color: white;
 }
 
 .swipe-wrap {
   overflow: hidden;
   position: relative;
+
 }
 
 .swipe-wrap > div {
   float: left;
   width: 100%;
   position: relative;
+
+
+}
+
+
+#leftbutton {
+  position: absolute;
+  left: 5vw;
+  top: 60vh;
+}
+
+
+#rightbutton {
+  position: absolute;
+  left: 90vw;
+  top: 60vh;
 }
