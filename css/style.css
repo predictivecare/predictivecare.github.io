@@ -100,14 +100,14 @@ html, body {
 
 #leftbutton {
   position: absolute;
-  left: 2vw;
+  left: 0w;
   top: 50vh;
 }
 
 
 #rightbutton {
   position: absolute;
-  left: 95vw;
+  left: 92vw;
   top: 50vh;
 }
 #logo{
