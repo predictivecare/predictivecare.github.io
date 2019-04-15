@@ -13,7 +13,7 @@ h1 {
   font-size: 8vh;
   width: 100vw;
   height: 12vh;
-  left: -20vw;
+  left: 0vw;
   color: white;
  text-align: center;
  position: relative;
@@ -98,15 +98,15 @@ html, body {
 
 #leftbutton {
   position: absolute;
-  left: 5vw;
-  top: 60vh;
+  left: 2vw;
+  top: 50vh;
 }
 
 
 #rightbutton {
   position: absolute;
-  left: 90vw;
-  top: 60vh;
+  left: 95vw;
+  top: 50vh;
 }
 #logo{
   position: absolute;
