@@ -31,52 +31,54 @@
     The main findings anticipate how facilities supporting mental health and addressing substance abuse, if increased and distributed to meet the needs of local populations, would be likely to reduce the rate of incarceration.</p></div>
     <div> <p> The first set of maps shows how the following variables are distributed <br> <br>
       <h2>-Population <br> </h2>
-      -Primary HealthCare Facility Distribution <br> 
-      -Drug Related Hospitalization <br>
-      -Psychiatric case related Hospitalization <br>
-      -Incarceration <br>
+      <p style="color: #dbdbdb; font-size: 14px">Primary HealthCare Facility Distribution <br> 
+      Drug Related Hospitalization <br>
+      Psychiatric case related Hospitalization <br>
+      Incarceration <br></p>
     </p><img src="images/population.jpg" style="width:80vw; position: relative; top: -10vh; z-index: -1;  "></div>
     <div>
       <p> The first set of maps shows how the following variables are distributed <br> <br>
-      -Population <br> 
+      <p style="color: #dbdbdb; font-size: 14px">Population <br> </p>
       <h2>-Primary HealthCare Facility Distribution <br> </h2>
-      -Drug Related Hospitalization <br>
-      -Psychiatric case related Hospitalization <br>
-      -Incarceration <br>
+      <p style="color: #dbdbdb; font-size: 14px">Drug Related Hospitalization <br>
+      Psychiatric case related Hospitalization <br>
+      Incarceration <br></p>
     </p>
 
       <img src="images/PrimaryHC.jpg" style="width:80vw; position: relative; top: -10vh; z-index: -1; "></div>
     <div>
       <p> The first set of maps shows how the following variables are distributed <br> <br>
-      -Population <br> 
-      -Primary HealthCare Facility Distribution <br> 
+      <p style="color: #dbdbdb; font-size: 14px">Population <br> 
+      Primary HealthCare Facility Distribution <br> </p>
       <h2>-Drug Related Hospitalization <br> </h2>
-      -Psychiatric case related Hospitalization <br>
-      -Incarceration <br>
+      <p style="color: #dbdbdb; font-size: 14px">Psychiatric case related Hospitalization <br>
+      Incarceration <br></p>
     </p>
       <img src="images/DrugHosp.jpg" style="width:80vw; position: relative; top: -10vh; z-index: -1; "></div>
     <div>
       <p> The first set of maps shows how the following variables are distributed <br> <br>
-      -Population <br> 
-      -Primary HealthCare Facility Distribution <br> 
-      -Drug Related Hospitalization <br> 
+      <p style="color: #dbdbdb; font-size: 14px">Population <br> 
+      Primary HealthCare Facility Distribution <br> 
+      Drug Related Hospitalization <br> </p>
       <h2>-Psychiatric case related Hospitalization <br></h2>
-      -Incarceration <br>
+     <p style="color: #dbdbdb; font-size: 14px"> Incarceration <br></p>
     </p>
 
       <img src="images/psychiatrichosp.jpg" style="width:80vw; position: relative; top: -10vh; z-index: -1; "></div>
     <div>
       <p> The first set of maps shows how the following variables are distributed <br> <br>
-      -Population <br> 
-      -Primary HealthCare Facility Distribution <br> 
-      -Drug Related Hospitalization <br> 
-      -Psychiatric case related Hospitalization <br>
+      <p style="color: #dbdbdb; font-size: 14px">Population <br> 
+      Primary HealthCare Facility Distribution <br> 
+      Drug Related Hospitalization <br> 
+      Psychiatric case related Hospitalization <br></p>
       <h2>-Incarceration <br></h2>
     </p>
 
-      <img src="images/incarceration.jpg" style="width:80vw; position: relative; top: -10vh; z-index: -1; "></div>
-    <div><p> Some areas suffer from poor health and also have high incarceration rates. <br> The skewing of the histograms, means that there are some areas with a comparatively much higher value of incarceration and poor health, which become easier to spot when visualised on a map as lighter spots (indicative of high incarceration and poor health overlap) </p> <img src="images/comp1.jpg" style="width: 80vw;"></div>
-    <div><p>A preliminary analysis of the data yeilds the following correlation with incarceration. <br>Incarceration has a high positive correlation with assault related hospitalizations,  drug related hospitalization, poverty, psychiatric hospitalization - they are all high in areas where incarceration is high <br> Incarceration has a negative correlation with the number of healthcare facilities present and gross rent - these are low where incarceration is high</p> <img src="images/chart1.jpg" ></div>
+      <img src="images/incarceration.jpg" style="width:80vw; position: relative; top: -10vh; z-index: -1; ">
+    </div>
+    
+    <div><p> Some areas suffer from poor health and also have high incarceration rates. <br> The skewing of the histograms, means that there are some areas with a comparatively much higher value of incarceration and poor health, which become easier to spot when visualised on a map as lighter spots (indicative of high incarceration and poor health overlap). </p> <img src="images/comp1.jpg" style="width: 80vw;"></div>
+    <div><p>A preliminary analysis of the data yeilds the following correlation with incarceration. <br>Incarceration has a high positive correlation with assault related hospitalizations,  drug related hospitalization, poverty, psychiatric hospitalization - they are all high in areas where incarceration is high. <br> Incarceration has a negative correlation with the number of healthcare facilities present and gross rent - these are low where incarceration is high.</p> <img src="images/chart1.jpg" ></div>
     <div><p> We run a regression algorithm on the data, and train it to correlate all the other variables, with incarceration.<br> We will then look at varying the input variable of facility distribution, and see how it affects the Incarceration.<br> The trained model could predict accurately, the incarceration value given the other variables, 65% of the time.</p> <img src="images/gbrs.PNG"></div>
     <div><p> We notice that in some areas, where a concentration of facilities and hospitalizations overlap, the incarceration rates are low. This lead us to try to emulate the facility density in these areas in accordance with the need. </p> <img src="images/chart2.jpg" style="width: 80vw;"></div>
     <div><p> The emulated 'Ideal Distribution of facilities', turned out to be as seen here. We then fed this into the trained regression model keeping all other variables the same and saw what changes it lead to in the incarceration pattern.</p> <img src="images/idealHC.jpg" style="width: 80vw;"></div>
